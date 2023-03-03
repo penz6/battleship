@@ -19,7 +19,7 @@ public class Print {
         if (player.equals("🔴")) {
             Boards.playerBoard();
             System.out.println("\n" + player
-                    + "So we are going to start placing ships. They are placed starting from the right, or the top,");
+                    + "So we are going to start placing ships. They are placed starting from the left, or the top,");
             System.out.println(player + "Depending on if you place them horizontally or not.");
             // start placing ships
             Shipcreator aircraft = new Shipcreator(player, "Aircraft Carrier");
@@ -41,7 +41,7 @@ public class Print {
         } else {
             Boards.enemyBoard();
             System.out.println("\n" + player
-                    + "So we are going to start placing ships. They are placed starting from the right, or the top,");
+                    + "So we are going to start placing ships. They are placed starting from the left, or the top,");
             System.out.println(player + "Depending on if you place them horizontally or not.");
             // start placing ships
             Shipcreator aircraft = new Shipcreator(player, "Aircraft Carrier");
